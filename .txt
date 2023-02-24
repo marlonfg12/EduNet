@@ -1,13 +1,12 @@
-Primer commit despues de la creacion del proyecto
+commit2
 
-cambios realizados :
+Se agrego el logo con su contenedor padre debajo del header mas un mq para dispositivos menores, tambien se agrego una nueva utilidad llamada .upper para un
+text transform
 
-Agregacion de archivos Normalize.css y Style.css
-donde se definieron las variables de :root de colores de texto y fondos
-mas los style de html + * para medidas del tamaño de las cajas 
+se agrego la navegacion principal con 4 enlaces mas sus style con un mq para dispositivos mas pequeños y de esta nav se saco una utilidad llamada nav-bg para posibles cambios en el futuro
 
-tambien se agregaron los style globales de titulos texto enlaces etc.., 
-como tambien la clase .contendor con sus style 
+se termino la nav y el logo en su totalidad
 
-y ademas de eso style y maquetacion en html y css con el header principal[corre]
+(POR EL MOMENTO NO SE CONSIDERA QUE HALLAN POSIBLES CAMBIOS EN ESTAS DOS PARTES)
+
 

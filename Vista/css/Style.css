@@ -4,6 +4,7 @@
     --negro:#121212;
     --blanco: #fff;
     --gris-claro:#7A7A7A;
+    --grisblanco:#D8D6D5;
 
     
     --fuente-principal:'Ubuntu', sans-serif;
@@ -16,6 +17,10 @@ html{
 
 *,*:before,*:after{box-sizing:inherent}
 
+/* Utilidades */
+
+.upper{text-transform: uppercase;}
+
 /* Globales */
 
 body{
@@ -24,17 +29,14 @@ body{
 }
 
 p{
-<<<<<<< HEAD
     font-size: 1rem;
-=======
-    font-size: 1.8rem;
->>>>>>> 42c6be552983db53fdf30d331773ac0c177ce45c
     font-family: Arial, Helvetica, sans-serif;
     color: var(--negro);
 }
 
 a{
     text-decoration: none;
+    font-family: var(--fuente-principal);
 }
 
 img{
@@ -71,4 +73,48 @@ h3{
     padding: .5rem;
     display: block;
     color: var(--blanco);
+}
+/* logo */
+.logo{
+    align-items: center;
+    padding: 2rem;
+    width: 80%;
+}
+
+@media (min-width: 768px){
+    .logo {
+        width: 20%; 
+    }
+}
+
+
+/* Navegacion */
+
+.nav-bg{color: var(--blanco)}
+
+.navegacion-principal{
+    display: flex;
+    flex-direction: column;
+    border-bottom: var(--grisblanco) .1rem solid ;
+    border-top: var(--grisblanco) .1rem solid ;
+}
+
+@media (min-width: 768px){
+ .navegacion-principal{
+    flex-direction: row;
+    justify-content: space-around;
+ }  
+}
+
+.navegacion-principal a{
+    display: block;
+    color: var(--gris-claro);
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.navegacion-principal a.active,
+.navegacion-principal a:hover{
+    color: var(--negro);
+    transition: .5s;
 }
