@@ -39,9 +39,7 @@ a{
     font-family: var(--fuente-principal);
 }
 
-img{
-   width: 100%;
-}
+img{width: 100%;}
 
 .contenedor{
     max-width: 120rem;
@@ -54,31 +52,30 @@ h1, h2 ,h3 {
     font-family: var(--fuente-principal);
 }
 
-h1{
-    font-size: 3rem;
-}
+h1{font-size: 3rem;}
 
-h2{
-    font-size: 2.2rem;
-}
+h2{font-size: 2.2rem;}
 
-h3{
-    font-size: 1.4rem;
-}
+h3{font-size: 1.4rem;}
 
 /* Header */
 
 .header{
     background-color: var(--colorPrimario);
-    padding: .5rem;
+    padding: .3rem;
     display: block;
     color: var(--blanco);
+}
+.header h2{
+    font-size: 1.7rem;
 }
 /* logo */
 .logo{
     align-items: center;
     padding: 2rem;
     width: 80%;
+    margin-top: 2rem ;
+    margin-bottom: 2rem;
 }
 
 @media (min-width: 768px){
@@ -90,7 +87,7 @@ h3{
 
 /* Navegacion */
 
-.nav-bg{color: var(--blanco)}
+.nav-bg{color: var(--blanco)} /* Por si se quiere realizar un cambio */
 
 .navegacion-principal{
     display: flex;
@@ -152,6 +149,10 @@ h3{
     width: 80%;
     margin: 0 auto;
     background-color:rgb(255 255 255 / 76%);
-    padding: 2rem;
+    padding: 5rem;
     border-radius: 1rem;
 }
+
+
+/* Main */
+

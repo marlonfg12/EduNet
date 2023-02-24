@@ -1,5 +1,5 @@
-commit3
+commit4
 
-Se añadio el hero de la pagina con sus respectivos style mas un mq para dispositivos mas pequeños 
+Se cambio el tamaño del font-size del header mas un aumneto de margin en el logo donde se separa mas de top y de buttom para tener mejor visualizacion
 
-(NO SE REQUIEREN POSIBLES CAMBIOS SOLO EN EL TEXTO SI SE REQUIERE)
+(POSIBLES CAMBIOS A FUTURO DEPENDIENDO DEL REQUERIMIENTO)
