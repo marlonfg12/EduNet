@@ -24,12 +24,12 @@ html{
 /* Globales */
 
 body{
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 1.5;
 }
 
 p{
-    font-size: 1rem;
+    font-size: 1.8rem;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--negro);
 }
@@ -117,4 +117,41 @@ h3{
 .navegacion-principal a:hover{
     color: var(--negro);
     transition: .5s;
+}
+
+/* Hero */
+
+.hero{
+    background-image: url(https://i.imgur.com/J6FIEFJ.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    margin: 2rem 0;
+    background-position: center center;
+    position: relative;
+}
+
+@media (min-width: 768px){
+   .hero{
+    height: 65rem;
+   }
+}
+
+.hero__contenedor{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__contenedor .hero__contenido{
+    max-width: 60rem;
+    width: 80%;
+    margin: 0 auto;
+    background-color:rgb(255 255 255 / 76%);
+    padding: 2rem;
+    border-radius: 1rem;
 }

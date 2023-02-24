@@ -1,14 +1,5 @@
-commit2-v2
+commit3
 
-se cambio el lugar de las imagenes para menos peso en la pagina
+Se añadio el hero de la pagina con sus respectivos style mas un mq para dispositivos mas pequeños 
 
-Se agrego el logo con su contenedor padre debajo del header mas un mq para dispositivos menores, tambien se agrego una nueva utilidad llamada .upper para un
-text transform
-
-se agrego la navegacion principal con 4 enlaces mas sus style con un mq para dispositivos mas pequeños y de esta nav se saco una utilidad llamada nav-bg para posibles cambios en el futuro
-
-se termino la nav y el logo en su totalidad
-
-(POR EL MOMENTO NO SE CONSIDERA QUE HALLAN POSIBLES CAMBIOS EN ESTAS DOS PARTES)
-
-
+(NO SE REQUIEREN POSIBLES CAMBIOS SOLO EN EL TEXTO SI SE REQUIERE)
