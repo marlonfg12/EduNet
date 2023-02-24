@@ -1,4 +1,6 @@
-commit2
+commit2-v2
+
+se cambio el lugar de las imagenes para menos peso en la pagina
 
 Se agrego el logo con su contenedor padre debajo del header mas un mq para dispositivos menores, tambien se agrego una nueva utilidad llamada .upper para un
 text transform
