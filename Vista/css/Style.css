@@ -24,7 +24,11 @@ body{
 }
 
 p{
+<<<<<<< HEAD
     font-size: 1rem;
+=======
+    font-size: 1.8rem;
+>>>>>>> 42c6be552983db53fdf30d331773ac0c177ce45c
     font-family: Arial, Helvetica, sans-serif;
     color: var(--negro);
 }
