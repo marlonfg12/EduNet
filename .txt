@@ -1,0 +1,13 @@
+Primer commit despues de la creacion del proyecto
+
+cambios realizados :
+
+Agregacion de archivos Normalize.css y Style.css
+donde se definieron las variables de :root de colores de texto y fondos
+mas los style de html + * para medidas del tamaño de las cajas 
+
+tambien se agregaron los style globales de titulos texto enlaces etc.., 
+como tambien la clase .contendor con sus style 
+
+y ademas de eso style y maquetacion en html y css con el header principal[corre]
+
