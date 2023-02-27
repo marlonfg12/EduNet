@@ -1,5 +1,4 @@
-commit4
+commit5
 
-Se cambio el tamaño del font-size del header mas un aumneto de margin en el logo donde se separa mas de top y de buttom para tener mejor visualizacion
+Se agrego un section para la parte de bioseguridad donde solo se puso un mq ya que los style por defecto nos ayudo en el responsive
 
-(POSIBLES CAMBIOS A FUTURO DEPENDIENDO DEL REQUERIMIENTO)

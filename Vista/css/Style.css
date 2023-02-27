@@ -149,10 +149,21 @@ h3{font-size: 1.4rem;}
     width: 80%;
     margin: 0 auto;
     background-color:rgb(255 255 255 / 76%);
-    padding: 5rem;
+    padding: 3rem;
     border-radius: 1rem;
 }
 
 
-/* Main */
+/* Biosegurida */
+
+
+@media (min-width: 768px){
+    .contenb .bio{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+        padding: 2rem;
+        align-items: center;
+    }
+}
 
