@@ -1,4 +1,8 @@
-commit5
+commit6
 
-Se agrego un section para la parte de bioseguridad donde solo se puso un mq ya que los style por defecto nos ayudo en el responsive
+Finalizamos la pagina index agregando el main con sus respectivos style con img y sus respectivas propiedades de css 
 
+
+Terminacion del footer con sus formularios y enlaces correspondientes mas el Copyrigth
+
+[CAMBIOS NECESARIOS: FALTA DE POPUP DE TELEFONOS Y DIRRECCIONES Y CREACION DE LOS ARCHIVOS PARA REDIRIGIR LOS ENLACES CREADOS EN ESTA PAGINA]
